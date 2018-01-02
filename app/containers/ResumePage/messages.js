@@ -40,7 +40,7 @@ export default defineMessages({
   },
   frontendDescription: {
     id: 'boilerplate.containers.ResumePage.technique.frontendDescription',
-    defaultMessage: 'Angular, MVVM, FLUX, HTML, JavaScript, Typescript, CSS, Bootstrap, JQuery',
+    defaultMessage: 'Angular, React, MVVM, FLUX, HTML, JavaScript, Typescript, CSS, Bootstrap, Semantic-UI, JQuery',
   },
   backend: {
     id: 'boilerplate.containers.ResumePage.technique.backend',
@@ -72,11 +72,11 @@ export default defineMessages({
   },
   centralStation: {
     id: 'boilerplate.containers.ResumePage.experience.centralStation',
-    defaultMessage: 'Central Station Software (Web Developer, 10/2017 – Present)',
+    defaultMessage: 'Central Station Software (Full-Stack Developer, 10/2017 – Present)',
   },
   centralStationDescription: {
     id: 'boilerplate.containers.ResumePage.experience.centralStationDescription',
-    defaultMessage: 'Central Station Software provides cloud-based web/BI solutions in latest technologies. Based in Albany, Auckland. We service clients across New Zealand, Australia, United Kingdom and South Africa.',
+    defaultMessage: 'Central Station Software provides cloud-based web/BI solutions in latest technologies. I worked as a full-stack developer in the early childhood education team, providing solutions for kindergarten management.',
   },
   centralStationExperience1: {
     id: 'boilerplate.containers.ResumePage.experience.centralStationExperience1',
@@ -96,7 +96,7 @@ export default defineMessages({
   },
   guoChuangDescription: {
     id: 'boilerplate.containers.ResumePage.experience.guoChuangDescription',
-    defaultMessage: 'Guo Chuang Software CO., Ltd provides data solutions for the power industry. I worked as a database developer developing stored procedures, functions and views for our integration systems.',
+    defaultMessage: 'Guo Chuang Software CO., Ltd is a cloud-based software solution provider. I worked as a database developer at the Department of the power industry, designing and developing for our data processing systems, data integration systems, and data warehouse.',
   },
   guoChuangExperience1: {
     id: 'boilerplate.containers.ResumePage.experience.guoChuangExperience1',
@@ -120,15 +120,15 @@ export default defineMessages({
   },
   openSourceDescription1: {
     id: 'boilerplate.containers.ResumePage.openSourceDescription1',
-    defaultMessage: 'A npm package to generate code for angular ngrx',
+    defaultMessage: 'A code generator based on node environment. It can be used to generate code of Angular-Ngrx automatically.',
   },
   openSourceDescription2: {
     id: 'boilerplate.containers.ResumePage.openSourceDescription2',
-    defaultMessage: 'An app about baking recipes written in laravel, angular2 and ionic2',
+    defaultMessage: 'An app about baking recipes. Server side is implemented in PHP Laravel, website in Angular2, mobile in Ionic2. State management code is shared between the website and mobile.',
   },
   openSourceDescription3: {
     id: 'boilerplate.containers.ResumePage.openSourceDescription3',
-    defaultMessage: 'A client-side SPA consuming trade me api. Written in angular2',
+    defaultMessage: 'This is my personal homepage, written in React, Redux and Semantic-UI.',
   },
   referees: {
     id: 'boilerplate.containers.ResumePage.referees',

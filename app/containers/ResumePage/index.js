@@ -176,7 +176,7 @@ export default class ResumePage extends React.Component { // eslint-disable-line
             <ListItemTitle>
               <FormattedMessage
                 {...messages.homepage}
-              />: <A href="https://github.com/ericwang1120/ezyTrade" target="_blank">GitHub</A> <A href="https://ericwangkiwi.github.io/" target="_blank">Demo</A>
+              />: <A href="https://github.com/ericwang1120/persoal-homepage" target="_blank">GitHub</A> <A href="https://ericwangkiwi.github.io/" target="_blank">Demo</A>
             </ListItemTitle>
             <p>
               <FormattedMessage
