@@ -40,6 +40,8 @@ const AppPushAble = styled(Sidebar.Pushable) `
   background-color: #fafafa;
   overflow-y: scroll;
   flex: 1 0 0;
+  -ms-flex: 1 0 0;
+  -webkit-flex: 1 0 0;
 `;
 
 const AppContainer = styled(Container) `
