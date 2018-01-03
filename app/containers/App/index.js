@@ -23,8 +23,8 @@ import AppSidebar from 'components/AppSidebar';
 
 const AppWrapper = styled.div`
   max-width: 100%;
-  height: 100vh;
-  display:flex;
+  height: 100%;
+  display: flex;
   flex-direction: column;
 `;
 
@@ -33,11 +33,13 @@ const AppHeader = styled(Header) `
 `;
 
 const AppFooter = styled(Footer) `
-  flex: 0;
+  flex: none;
 `;
 
 const AppPushAble = styled(Sidebar.Pushable) `
   background-color: #fafafa;
+  overflow-y: scroll;
+  flex: 1 0 0;
 `;
 
 const AppContainer = styled(Container) `
@@ -47,6 +49,11 @@ const AppContainer = styled(Container) `
 export default class App extends React.Component {  // eslint-disable-line react/prefer-stateless-function
   state = {
     visible: false,
+  }
+
+  // When pressing esc, close side bar.
+  componentDidMount() {
+    document.addEventListener('keydown', this.disableVisibility, false);
   }
 
   toggleVisibility = () => {
@@ -64,10 +71,10 @@ export default class App extends React.Component {  // eslint-disable-line react
       <AppWrapper ref={this.handleContextRef}>
         <AppHeader onToggle={this.toggleVisibility} onClick={this.disableVisibility} />
         <Helmet
-          titleTemplate="%s - Eric Wang's personal website"
-          defaultTitle="Eric Wang's personal website"
+          titleTemplate="%s - Eric Wang's Personal Homepage"
+          defaultTitle="Eric Wang's Personal Homepage"
         >
-          <meta name="description" content="Eric Wang's personal website" />
+          <meta name="description" content="Eric Wang's Personal Homepage" />
         </Helmet>
         <AppSidebar {...this.state} onToggle={this.toggleVisibility} />
         <AppPushAble onClick={this.disableVisibility}>
