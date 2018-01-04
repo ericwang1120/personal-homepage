@@ -10,13 +10,19 @@ import { FormattedMessage } from 'react-intl';
 import A from 'components/A';
 import H1 from 'components/H1';
 import H2 from 'components/H2';
+import ReactGA from 'react-ga';
 import messages from './messages';
 import List from './List';
 import ListItem from './ListItem';
 import ListItemTitle from './ListItemTitle';
 
-export default class ResumePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
+export default class ResumePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
+  constructor() {
+    super();
+    ReactGA.initialize('UA-101172721-3');
+    ReactGA.pageview(window.location.pathname);
+  }
   // Since state and props are static,
   // there's no need to re-render this component
   shouldComponentUpdate() {
