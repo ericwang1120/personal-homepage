@@ -15,11 +15,11 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 import B from './B';
 
-const HeaderMenu = styled(Menu) `
+const HeaderMenu = styled(Menu)`
   margin: 0!important;
 `;
 
-const PageDescription = styled(Menu.Item) `
+const PageDescription = styled(Menu.Item)`
   @media (max-width: 768px){
     display: none!important;
   }
