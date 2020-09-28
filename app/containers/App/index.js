@@ -28,15 +28,15 @@ const AppWrapper = styled.div`
   flex-direction: column;
 `;
 
-const AppHeader = styled(Header) `
+const AppHeader = styled(Header)`
   flex: none;
 `;
 
-const AppFooter = styled(Footer) `
+const AppFooter = styled(Footer)`
   flex: none;
 `;
 
-const AppPushAble = styled(Sidebar.Pushable) `
+const AppPushAble = styled(Sidebar.Pushable)`
   background-color: #fafafa;
   overflow-y: scroll;
   flex: 1 0 0;
@@ -44,7 +44,7 @@ const AppPushAble = styled(Sidebar.Pushable) `
   -webkit-flex: 1 0 0;
 `;
 
-const AppContainer = styled(Container) `
+const AppContainer = styled(Container)`
   padding: 1em 0!important;
 `;
 
